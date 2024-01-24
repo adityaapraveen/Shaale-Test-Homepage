@@ -1,0 +1,11 @@
+#shaale-nav {
+    background-color: red;
+}
+
+#dropdown-heading{
+    color: red;
+    font-size: x-large;
+}
+#artsDropdown, #musicDropdown, #danceDropdown, #classicalmusic, #folkmusic, #others, #classicaldance, #regionaldance{
+    color: black;
+}
