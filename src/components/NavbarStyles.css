@@ -1,11 +1,66 @@
-#shaale-nav {
-    background-color: red;
+/* NavbarStyles.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
 
-#dropdown-heading{
-    color: red;
-    font-size: x-large;
+.shaale-logo {
+    font-size: 24px;
 }
-#artsDropdown, #musicDropdown, #danceDropdown, #classicalmusic, #folkmusic, #others, #classicaldance, #regionaldance{
-    color: black;
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    height: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    /* Adjust the margin to create space between the search box and <ul> */
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    /* Specify border style */
+    outline-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.last-four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-four>div {
+    margin-right: 60px;
+    /* Adjust the margin to add space between the search-box and icons divs */
+}
+.first-two span {
+    margin-right: 20px;
+    /* Adjust the margin to add space between spans */
 }
