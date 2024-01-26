@@ -61,13 +61,16 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
+    
 }
 
 .first-two{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     position: relative;
-    /* justify-content: space-between;  */
+    justify-content: space-between; 
+    margin-bottom: 20px;
 }
 .last-four>div {
     margin-right: 60px;
@@ -75,6 +78,7 @@ ul li {
 }
 .first-two span {
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 .icons{
     display: flex;
@@ -82,17 +86,14 @@ ul li {
     justify-content: space-between;
 }
 .explore-dropdown{
-    display: block;
-    position: absolute;
+    display: inline-block;
+    position: relative;
     left: 0;
     top: 100%;
     background-color: #000000;
 }
-.explore-dropdown ul{
-    display: block;
-    align-items: center;
+.explore-dropdown ul {
+    display: contents;
+
 }
 
-.explore-dropdown ul li{
-    position: relative;
-}

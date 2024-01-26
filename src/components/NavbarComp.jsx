@@ -11,14 +11,19 @@ const NavbarComp = () => {
     <div className='navbar'>
         <div className="first-two">
             <span className='shaale-logo'>shaale</span>
+        
             <div className="explore-dropdown">
-                <span>Explore<IoMdArrowDropdown /></span>
-                <ul>
-                    <li>Music</li>
-                    <li>Dance</li>
-                </ul>
+        
+                <span className='explore'>Explore<IoMdArrowDropdown /></span>
+                    <div className="dropdown-items">
+                    <ul>
+                        <li>Music</li>
+                        <li>Dance</li>
+                    </ul>
+                    </div>
+                </div>
             </div>
-        </div>
+       
         <div className="last-four">
             <div className="search-box">
                 <input type='text' placeholder='search' />
