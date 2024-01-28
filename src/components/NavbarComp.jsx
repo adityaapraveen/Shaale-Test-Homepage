@@ -15,12 +15,12 @@ const NavbarComp = () => {
             <div className="explore-dropdown">
         
                 <span className='explore'>Explore<IoMdArrowDropdown /></span>
-                    <div className="dropdown-items">
+                    {/* <div className="dropdown-items">
                     <ul>
                         <li>Music</li>
                         <li>Dance</li>
                     </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
        
