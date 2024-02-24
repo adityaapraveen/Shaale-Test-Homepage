@@ -21,8 +21,9 @@ span{
 .search-box {
     display: flex;
     align-items: center;
-    position: relative;
+    position: relative;   
 }
+
 .search-icon {
     position: absolute;
     top: 50%;

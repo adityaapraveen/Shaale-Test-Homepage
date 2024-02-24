@@ -1,13 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
-import { CarouselDemo } from './components/CarouselDemo';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
     <div className="App">
-      <NavbarComp />
-      <CarouselDemo />
+    <NavbarComp />
+    <Carousel />
     </div>
   );
 }
